@@ -5,6 +5,7 @@
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
+    "seed": "node -r dotenv/config ./scripts/seed.js",
     "start": "next start"
   },
   "dependencies": {
@@ -13,7 +14,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@tailwindcss/forms": "^0.5.7",
     "@types/node": "20.5.7",
-    "@vercel/postgres": "^0.5.0",
+    "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
     "class-variance-authority": "^0.7.0",
@@ -31,6 +32,7 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
+    "@rxjs/rx": "^4.1.0",
     "@types/bcrypt": "^5.0.1",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.14",
